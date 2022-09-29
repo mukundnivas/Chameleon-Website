@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.scss";
+import "./index.css";
 import { Collapse, Calendar } from "antd";
 const { Panel } = Collapse;
 

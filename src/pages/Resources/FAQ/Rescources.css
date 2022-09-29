@@ -1,0 +1,144 @@
+.ant-collapse-header {
+    font-size: 24px;
+    line-height: 1.5;
+    border-bottom: 1px solid #eff0e5;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+
+
+
+}
+
+.head div:first-child {
+    flex: 1;
+    height: 2px;
+    background: #99c854;
+}
+
+.head div:nth-child(2) {
+    padding: 0 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.head div:last-child {
+    flex: 1;
+    height: 2px;
+    background: #99c854;
+}
+
+.main .content-box {
+    padding: 0px 10px;
+    width: 48%;
+
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.content-box h2 {
+    font-size: 41px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.content-box .title {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-box p:nth-child(2) {
+    width: 240px;
+    text-align: right;
+}
+
+.cardBox h3 {
+    margin: 10px 0 0 0;
+    border-bottom: 2px solid #eff0e5;
+    display: flex;
+}
+
+.cardBox h3 p {
+    font-size: 24px;
+}
+
+.cardBox h3 p:nth-child(1) {
+    flex: 1;
+}
+
+.cardBox h3 .iconBox {
+    width: 20px;
+}
+
+.main .content-box:nth-child(2) {
+    width: 42%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resources {
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    min-width: 1000px;
+    position: relative;
+}
+
+.box2 {
+    z-index: -10;
+    right: 0;
+    bottom: -54px;
+    position: absolute;
+    width: 15%;
+    height: 80%;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 49.9%, rgba(199, 230, 154, 1) 50%, rgba(199, 230, 154, 1) 100%);
+}
+
+.calendar-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calendar-box .b-calendar {
+    background: #e2f2cc;
+    border-radius: 50px;
+    width: 100%;
+    padding: 0 30px 30px;
+}
+
+.calendar-box .b-calendar .form-control {
+    background: #f1f8e6 !important;
+}
+
+.calendar-box .b-calendar .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    height: 55px;
+    padding-top: 10px;
+    border: #dee2e6 1px solid;
+}
