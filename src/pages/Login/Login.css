@@ -5,8 +5,8 @@
 }
 
 .loginContainer{
-    width: 60vh;
-    height: 85vh;
+    width: 70vh;
+    height: 90vh;
     background-color: #d6d6d6;
     margin:auto auto;
     text-align:center;
@@ -15,7 +15,7 @@
 }
 
 .loginImg{
-  margin-top: 10px;
+    margin-top: 30px;
     width: 100px;
     height: 100px;
 }
