@@ -1,0 +1,158 @@
+.p-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 24px;
+    box-sizing: border-box;
+
+}
+
+.p-container .left {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.p-container .right{
+    padding: 0 24px;
+    box-sizing: border-box;
+} 
+
+.profile-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.profile-content .u-img {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.profile-content .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-content .content {
+    padding: 24px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.attr {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.edit-button {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.home-page-content {
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.home-page-content .title {
+    color: #666;
+    font-size: 14px;
+}
+
+.page-diff {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+.page-diff .link{
+    color: #55adf0;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.page-list {
+    margin-top: 10px;
+}
+
+.page-item {
+    display: flex;
+    align-items: center;
+
+}
+
+.page-item .logo {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.page-item .content {
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    font-size: 14px;
+}
+
+.page-item .content .title {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.page-item .remark{
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.section{
+    background-color: #eee;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 12px 24px 24px 24px ;
+    box-sizing: border-box;
+}
+
+.section .intro-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 14px;
+}
+.post-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    border-top: 1px solid #333;
+    padding: 10px 0;
+}
