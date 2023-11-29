@@ -1,0 +1,14 @@
+name: GitHub-actions-Hello-World
+on: [push]
+  jobs:
+  check-react-version
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - run: cd front_end_project/
+      - run: npm ci
+      - run: npm start
