@@ -10,5 +10,5 @@ jobs:
           node-version: '14'
 
       - run: cd front_end_project/
-      - run: npm ci
+      - run: npm install
       - run: npm start
