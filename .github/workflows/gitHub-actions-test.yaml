@@ -1,6 +1,6 @@
 name: GitHub-actions-Hello-World
 on: [push]
-  jobs:
+jobs:
   check-react-version:
     runs-on: ubuntu-latest
     steps: 
